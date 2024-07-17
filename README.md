@@ -2,7 +2,9 @@
 
 ### Olá, meu nome é Adriel e segue os resultados do desafio previsto
 
-O desafio consistia em testar 2 paginas e trazer os resultados do teste, sendo eles:
+O desafio consistia em testar 2 paginas e trazer os resultados do teste,
+As automações foram criadas a partir de Javasscript/node e Cypress(framework de testes)
+e os teste propostos sao:
 
 1 - funcionalidade login:
 
