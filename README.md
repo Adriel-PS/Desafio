@@ -1,4 +1,4 @@
-# entrega dos desafios propostos
+# Entrega Dos Desafios Propostos
 
 ### Olá, meu nome é Adriel e segue os resultados do desafio previsto
 
@@ -6,17 +6,17 @@ O desafio consistia em testar 2 paginas e trazer os resultados do teste,
 As automações foram criadas a partir de Javasscript/node e Cypress(framework de testes)
 e os teste propostos sao:
 
-1 - funcionalidade login:
+1 - Funcionalidade login:
 
-- acessar a url: http://www.exemplo.com.br/login
-- validar a usabilidade dos campos: email, senha e o botao de confirmação.
-- validar o acesso com um usario e a redirecionamento para uma pasgina logada pós login.
+- Acessar a url: http://www.exemplo.com.br/login
+- Validar a usabilidade dos campos: email, senha e o botao de confirmação.
+- Validar o acesso com um usario e a redirecionamento para uma pasgina logada pós login.
 
-2 - funcionalidade search:
+2 - Funcionalidade search:
 
-- acessar url: http://www.exemplo.com.br/busca
-- validar usabilidade dos campos: campo busca e botão busca
-- validar busca e verificar.
+- Acessar url: http://www.exemplo.com.br/busca
+- Validar usabilidade dos campos: campo busca e botão busca
+- Validar busca e verificar.
 
 ## Teste elaborados e comentados nos seguintes diretorios.
 
@@ -31,7 +31,7 @@ cypress/e2e/verification-search.cy.js
 
 As funcionalidades testadas são:
 
-- acesso a url e carregamento da pagina
+- Acesso a url e carregamento da pagina
 - Apresentação do campos descritos
 - Preenchimento e acionamento dos campos
 
@@ -65,22 +65,22 @@ a partir da ide, podemos ver as validações e ver os pontos no qual o teste tev
 
 As funcionalidades testadas são:
 
-- cesso a url e carregamento da pagina
+- Acesso a url e carregamento da pagina
 - Apresentação do campos descritos
 - Preenchimento do campo de pesquisa e retorno com resultado referente a pesquisa
 
-esperado:
+Esperado:
 
-- carregamento da pagina por completo
+- Carregamento da pagina por completo
 - Apresentação dos campos descritos
 - Preenchimento do form de pesquisa e seu envio
 - Validar carregamento e retorno da página com o resutado da pesquisa
 
 Resultado:
 
-sucessido:
+Sucessido:
 
-- carregamento completo da pagina
+- Carregamento completo da pagina
 - Apresentação dos campos descritos
 - Preenchimento do campo da pesquisa
 
@@ -91,7 +91,7 @@ Falhos:
 
 
 ![image](https://github.com/user-attachments/assets/613cb872-2a2a-4df4-b4bc-d7b384ff81d2)
-na captura é apresentado que o teste “passe” ( nome do teste) não passou na etapa de encontrar a “ palavra chave” na pagina.
+Na captura é apresentado que o teste “passe” ( nome do teste) não passou na etapa de encontrar a “ palavra chave” na pagina.
 
 ![image](https://github.com/user-attachments/assets/be6568a1-ad7e-4270-9c10-c0277189ebf9)
 
@@ -108,14 +108,14 @@ npm install
 
 ***recomendado que o node esteja na versão 18.x, 20.x, 22.x ou em algumas versão estavel a partir dessas*** 
 
-para abrir a ide 
+Para abrir a ide 
 
 ```jsx
 npx cypress open
 //irá abrir uma interface grafica que mostrará o teste rodando em tempo real
 ```
 
-para o codigo ser execultado no terminal 
+Para o codigo ser execultado no terminal 
 
 ```jsx
 npx cypress run --spec "cypress/e2e/exemplo.cy.js”
