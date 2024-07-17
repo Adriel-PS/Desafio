@@ -16,8 +16,6 @@ O desafio consistia em testar 2 paginas e trazer os resultados do teste, sendo e
 - validar usabilidade dos campos: campo busca e botão busca
 - validar busca e verificar.
 
-v
-
 ## Teste elaborados e comentados nos seguintes diretorios.
 
 ```jsx
