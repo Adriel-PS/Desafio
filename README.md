@@ -16,6 +16,15 @@ O desafio consistia em testar 2 paginas e trazer os resultados do teste, sendo e
 - validar usabilidade dos campos: campo busca e botão busca
 - validar busca e verificar.
 
+v
+
+## Teste elaborados e comentados nos seguintes diretorios.
+
+```jsx
+cypress/e2e/verification-login.cy.js
+cypress/e2e/verification-search.cy.js
+```
+
 ## Elaboração do teste e resultado
 
 ### Login
@@ -43,6 +52,14 @@ falhos:
 
 - Validação de usuario
 - Direcionamento para pagina home
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/07eb2c27-d943-4da7-ae01-d4fbacc339ab/c0b678a4-42e0-4717-a755-65e8ae6b97c3/Untitled.png)
+
+A partir do terminal temos, o teste que deu a negativa, no caso, a validação da mudança de url para home.
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/07eb2c27-d943-4da7-ae01-d4fbacc339ab/636ba1d7-8fc3-4c17-8bce-bf0130dddbca/Untitled.png)
+
+a partir da ide, podemos ver as validações e ver os pontos no qual o teste teve sua negativa.
 
 ### Search
 
@@ -72,6 +89,14 @@ Falhos:
 - Carregamento da pagina com resultado da pesquisa
 - Não apresentação do resultado da pesquisa
 
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/07eb2c27-d943-4da7-ae01-d4fbacc339ab/97fb809a-f73f-4cce-bfcd-727abfe9a571/Untitled.png)
+
+na captura é apresentado que o teste “passe” ( nome do teste) não passou na etapa de encontrar a “ palavra chave” na pagina.
+
+![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/07eb2c27-d943-4da7-ae01-d4fbacc339ab/bf3fc03c-eae8-4901-a796-f5d03c454ae5/Untitled.png)
+
+A partir da ide, podemos ver as validações anteriores e o trexo no qual o texto da erro
+
 ## Dependencia e comandos de execução
 
 Para a instalação das dependencias 
@@ -80,6 +105,8 @@ Para a instalação das dependencias
 npm install
 //irá baixar todas as bibliotecas usadas no projeto
 ```
+
+***recomendado que o node esteja na versão 18.x, 20.x, 22.x ou em algumas versão estavel a partir dessas*** 
 
 para abrir a ide 
 
