@@ -53,11 +53,11 @@ falhos:
 - Validação de usuario
 - Direcionamento para pagina home
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/07eb2c27-d943-4da7-ae01-d4fbacc339ab/c0b678a4-42e0-4717-a755-65e8ae6b97c3/Untitled.png)
+![image](https://github.com/user-attachments/assets/dc4b6b9f-a7f2-48f6-8368-e0fc670153d0)
 
 A partir do terminal temos, o teste que deu a negativa, no caso, a validação da mudança de url para home.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/07eb2c27-d943-4da7-ae01-d4fbacc339ab/636ba1d7-8fc3-4c17-8bce-bf0130dddbca/Untitled.png)
+![image](https://github.com/user-attachments/assets/8b75787b-4a97-47cd-8cfb-4a60fd22c4ab)
 
 a partir da ide, podemos ver as validações e ver os pontos no qual o teste teve sua negativa.
 
@@ -89,11 +89,11 @@ Falhos:
 - Carregamento da pagina com resultado da pesquisa
 - Não apresentação do resultado da pesquisa
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/07eb2c27-d943-4da7-ae01-d4fbacc339ab/97fb809a-f73f-4cce-bfcd-727abfe9a571/Untitled.png)
 
+![image](https://github.com/user-attachments/assets/613cb872-2a2a-4df4-b4bc-d7b384ff81d2)
 na captura é apresentado que o teste “passe” ( nome do teste) não passou na etapa de encontrar a “ palavra chave” na pagina.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/07eb2c27-d943-4da7-ae01-d4fbacc339ab/bf3fc03c-eae8-4901-a796-f5d03c454ae5/Untitled.png)
+![image](https://github.com/user-attachments/assets/be6568a1-ad7e-4270-9c10-c0277189ebf9)
 
 A partir da ide, podemos ver as validações anteriores e o trexo no qual o texto da erro
 
