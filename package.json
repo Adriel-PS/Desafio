@@ -1,4 +1,9 @@
 {
+  "name": "Desafios",
+  "version": "1.0.0",
+  "description": "desafio proposto pela PluSoft no processo seletivo de analista de qualidade junior",
+  "main": "index.js",
+  "author": "Adriel siqueira <adrielpesi20002@gmail.com> (https://github.com/Adriel-PS)",
   "dependencies": {
     "cypress": "^13.13.1"
   }

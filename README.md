@@ -4,6 +4,7 @@
 
 O desafio consistia em testar 2 paginas e trazer os resultados do teste,
 As automações foram criadas a partir de Javasscript/node e Cypress(framework de testes)
+***vale ressaltar que a versao usada do node é 21.7.1***
 e os teste propostos são:
 
 1 - Funcionalidade login:
